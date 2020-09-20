@@ -1,0 +1,147 @@
+
+Lesson 1:  Intro to Web Programming
+ TCP/IP
+ HTTP
+ browser request/response steps
+ HTML5 page structure
+ relative vs absolute URL
+ block vs inline elements
+ lists
+ tables
+ HTML validator
+
+
+Lesson 2:  CSS 
+
+ - rule syntax
+ - font vs text styling:  which does letters vs words .. ?
+ - best practice size units (responsive)
+ - cascade, inherit, specifity 
+ - class vs id
+ - context selector
+ - div vs span
+ 
+
+Lesson 3:  Layout
+
+ box model:  
+   - elements:  padding vs margin (border and content)  
+   - measurements
+   - box sizing vs content sizing
+   - responsiveness of max-width
+   - margin collapse
+
+ block vs inline elements and static (standard/default) layout
+ - centering and auto margin
+ - inline-block 
+ - display blocks as inline vs inline-block
+ - display none vs visibility: none
+ 
+ position:  static, relative, absolute, fixed  
+ 
+ float
+  - how to use for wrapping text
+  - width, clear, overflow
+  - multicolumn
+    -- column-count (-gap, -rule)
+  
+ responsiveness
+  - concept
+  - meta viewport and media queries 
+  - viewport is 'ideal display size of device' 
+  - media query is condition for applying layout/styling
+  
+  - flexbox 
+    -- display: flex (direction, wrap)
+	
+  - grid
+    -- grid-template-columns (number and width)
+	-- grid-template rows (height)
+	-- child elements (one per colXrow cell)
+	
+ 
+Lesson 4:  FORMS 
+  get vs post
+  query string vs input parameters in body
+  form action method (novalidate autocomplete)
+  input type (text submit checkbox radio button hidden) name value
+  select multiple name size 
+  color date
+  Reg expressions
+   pattern
+   ^ $ . | ) _ \  * + ? {min, max} [] [ - ] \d \D \w \W \s \S  
+   URL example , email example 
+   
+   *****************JAVASCRIPT ********************
+   
+Lesson 5:   Intro to JS
+  - variable declarations:  var, let, const
+  - value versus reference
+  - automatic type conversion and ===
+  - strings and numbers, parseInt, parseFloat
+  - booleans and boolean conversions 
+    -- falsey values
+  - null, undefined, reference error
+  - arrays
+   -- methods: push/pop , shift/unshift, join, slice, splice, sort, map/filter/reduce/find
+  - function declaration vs expression
+    -- anonymous function (expression) 
+  - DOM, DOM objects and attributes and getElementById
+  - modify DOM in response to HTML event
+  - unobtrusive styling
+  
+Lesson 6:  JS ENVIRONMENT
+DOM, BOM
+unobtrusive js
+function call vs reference
+anonymous functions and use in event handlers
+first class functions
+arrow functions 
+map/filter/reduce and convenience looping functions
+function signature and no overloading
+rest and spread and destructuring
+timers (asynchronous) and function reference
+strict mode
+
+
+Lesson 7:  SCOPE
+global object
+implied global (missing declaration -- strict mode)
+function scope versus block scope
+lexical scope versus dynamic scope
+var, let, const
+2 phase compilation
+  - hoisting
+execution context, lexical environment, scope stack, execution stack
+closures and their uses
+
+
+Lesson 8:  MODULES and OBJECTS
+object literal
+this
+ - inside vs outside object (in function)
+ - in event handlers
+ - call/apply/bind
+ - module pattern
+  - IIFE
+  - revealing module pattern
+    -- private methods and variables
+	-- counter example
+	
+Lesson 9:  INHERITANCE
+[[Prototype]], __proto__, F.prototype
+prototype chain 
+own properties
+this and 'object before dot rule' in prototype chain
+constructor functions, new operator
+constructor function and prototype diagram example
+native prototypes (Object.prototype, Array.prototype, etc) and built-in constructor functions
+Object.create vs __proto__ vs constructor function
+
+
+    
+ 
+ 
+
+  
+  

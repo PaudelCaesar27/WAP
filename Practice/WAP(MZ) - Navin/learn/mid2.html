@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link href="mid2.css" rel="stylesheet">
+    <title>W1D5 Q1</title>
+</head>
+<body>
+<form>
+    <fieldset id="container">
+        <legend>Party Info</legend>
+        <div class="label">First Name:</div>
+        <div><input type="text" name="first" /></div>
+        <div class="label">Last Name:</div>
+        <div><input type="text" name="last" /></div>
+        <div class="label">Favorite Food:</div>
+        <div>
+            <select name="food">
+                <option>Pizza</option>
+                <option>Ice Cream</option>
+                <option>Burger and Fries</option>
+            </select>
+        </div>
+        <div class="label remember">
+            <label><input type="checkbox" name="remember"> Remember me</label>
+        </div>
+        <div class="label button">
+            <button type="submit" class="btn btn-default">Submit</button>
+        </div>
+    </fieldset>
+</form>
+
+<div>
+    <input id="option" type="checkbox" name="field1" value="option1">
+    <label for="option">Value</label>
+    <input id="option1" type="checkbox" name="field1" value="option2">
+    <label for="option1">Value1</label>
+    <input id="option2" type="checkbox" name="field1" value="option3">
+    <label for="option2">Value2</label>
+</div>
+
+<div>
+    <input id="option3" type="radio" name="field2" value="option1">
+    <label for="option3">Value</label>
+    <input id="option4" type="radio" name="field2" value="option2">
+    <label for="option4">Value1</label>
+    <input id="option5" type="radio" name="field2" value="option3">
+    <label for="option5">Value2</label>
+</div>
+<form>
+    <fieldset id="group1">
+        <input type="radio" value="value1" name="group1">
+        <input type="radio" value="value2" name="group1">
+    </fieldset>
+
+    <fieldset id="group2">
+        <input type="radio" value="value1" name="group2">
+        <input type="radio" value="value2" name="group2">
+        <input type="radio" value="value3" name="group2">
+    </fieldset>
+</form>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-areas:
+               'some text text'
+                'some here there';
+            background-color: #2196F3;
+            grid-gap: 5px;
+        }
+        .container>div{
+            text-align: center;
+        }
+        .some{
+            grid-area: some;
+            background-color: lightblue;
+        }
+        .text{
+            grid-area: text;
+            background-color: lightgrey;
+        }
+        .here{
+            grid-area: here;
+            background-color: lightcoral;
+        }
+        .there{
+            grid-area: there;
+            background-color: lightcyan;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="some">Some</div>
+    <div class="text">Text</div>
+    <div class="here">Here</div>
+    <div class="there">There</div>
+</div>
+</body>
+</html>
